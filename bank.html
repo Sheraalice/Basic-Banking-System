@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Shera Alice</title>
+    <script src="bank_account.js"></script>
+</head>
+<body>
+    <h1>Bank Shera Alice</h1>
+    <p>Saldo Anda saat ini: <span id="saldoDisplay"></span></p>
+
+    <button onclick="tambahSaldo()">Tambah Saldo</button>
+    <button onclick="kurangiSaldo()">Kurangi Saldo</button>
+
+    <script>
+        document.getElementById("saldoDisplay").textContent = saldo;
+    </script>
+</body>
+</html>
+
